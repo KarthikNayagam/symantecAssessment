@@ -1,0 +1,37 @@
+.container{
+	clear:both;
+}
+.time{
+	float: left;
+    width: 70px;
+    text-align: right;
+	padding-right: 10px;
+}
+.scheduled{
+	background-color:rgb(154, 191, 226);
+	border-left:2px solid rgb(17, 23, 255);
+	font-size: 16px;
+    font-weight: bold;
+    padding-top: -3px;
+    line-height: 30px;
+    position: absolute;
+    z-index: 10000;
+    overflow: auto;
+    width:800px;
+    float:left;
+    margin-left:0px;
+}
+.parent-container{
+	position: relative;
+    height: 30px;
+	width:800px;
+	height:30px;
+	background-color:#E0E0E0;
+	border:1px solid #E8E8E8;
+	border-bottom:2px dashed #B0B0B0;
+	float:left;
+}
+.mr-lt{
+	margin-left:400px;
+}
+
